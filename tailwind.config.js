@@ -9,7 +9,7 @@ export default {
       container: {
         center: true,
         screens: {
-          xl: "1200px",
+          xl: "1440px",
         },
       },
       colors: {
@@ -19,9 +19,11 @@ export default {
         },
         grey: {
           DEFAULT: "#939caa",
-          1: "#e5ecf4"
+          1: "#e5ecf4",
+          2: "#333A44",
         },
         darkNavy: "#495567",
+        white: "#fff",
       },
       fontFamily: {
         lexenddeca: "LexendDeca",
