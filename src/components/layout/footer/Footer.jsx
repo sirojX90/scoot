@@ -24,8 +24,12 @@ export const Footer = () => {
           <h3 className="text-white text-[48px] font-[SpaceMono] font-bold tracking-tighter">Sign up and <br />Scoot off today</h3>
         </div>
         <div className="flex items-center gap-[20px]">
-          <img className="rounded-md" src={ApleStor} alt="" />
-          <img className="rounded-md" src={GooglePlay} alt="" />
+          <a href="https://www.apple.com/app-store/" target="_blank">
+            <img className="rounded-md" src={ApleStor} alt="" />
+          </a>
+          <a href="https://play.google.com/store/apps" target="_blank">
+            <img className="rounded-md" src={GooglePlay} alt="" />
+          </a>
         </div>
       </section>
       <footer className="flex items-center justify-between px-[165px] py-[35px]  bg-grey-2">
@@ -61,9 +65,15 @@ export const Footer = () => {
           </ul>
         </div>
         <div className="flex gap-5">
-          <ImFacebook2 className="cursor-pointer hover:fill-[#e5ecf4]" color="#fcb72b" size="23px"/>
-          <FaTwitter className="cursor-pointer hover:fill-[#e5ecf4]" color="#fcb72b" size="24px"/>
-          <FaInstagram className="cursor-pointer hover:fill-[#e5ecf4]" color="#fcb72b" size="24px"/>
+          <a href="https://www.facebook.com/" target="_blank">
+            <ImFacebook2 className="cursor-pointer hover:fill-[#e5ecf4]" color="#fcb72b" size="23px"/>
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <FaTwitter className="cursor-pointer hover:fill-[#e5ecf4]" color="#fcb72b" size="24px"/>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <FaInstagram className="cursor-pointer hover:fill-[#e5ecf4]" color="#fcb72b" size="24px"/>
+          </a>
         </div>
       </footer>
     </div>
