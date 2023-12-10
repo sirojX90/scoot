@@ -2,8 +2,8 @@ import { ImFacebook2 } from "react-icons/im";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
-import ApleStor from "../../../../public/images/icons/ApleStore.png"
-import GooglePlay from "../../../../public/images/icons/GooglePlay.png"
+import ApleStor from "../../../../public/images/icons/ApleStore.svg"
+import GooglePlay from "../../../../public/images/icons/GooglePlay.svg"
 
 export const Footer = () => {
   return (
