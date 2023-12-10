@@ -11,16 +11,34 @@ export const AboutHeader = () => {
         <h2 className="text-[56px] text-white font-bold font-[SpaceMono] py-[55px]">
           About
         </h2>
+        <div className="relative border-red-500">
+          <div className="absolute right-[-195px] top-[-130px] border-red-600 z-10">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="234"
+              height="64"
+              viewBox="0 0 234 64"
+              fill="none"
+            >
+              <circle cx="31" cy="32" r="29.5" stroke="white" strokeWidth="3" />
+              <circle cx="117" cy="32" r="29.5" stroke="white" strokeWidth="3" />
+              <circle cx="203" cy="32" r="31" fill="white" />
+            </svg>
+          </div>
+        </div>
         <div className="flex flex-col gap-[150px] py-[100px]">
           <div className="flex justify-between items-center">
             <div className="w-[50%]">
               <h3 className="text-[48px] text-[#495567] font-bold font-[SpaceMono]">
-                Mobility for the<br />
+                Mobility for the
+                <br />
                 digital era
               </h3>
               <p className="text-[15px] text-[grey] font-normal font-[LexendDeca] mt-[25px] mb-[40px]">
-                Getting around should be simple (and even fun!) for everyone. We<br />
-                embrace technology to provide low cost, smart access to scooters<br />
+                Getting around should be simple (and even fun!) for everyone. We
+                <br />
+                embrace technology to provide low cost, smart access to scooters
+                <br />
                 at your fingertips.
               </p>
             </div>
@@ -112,12 +130,15 @@ export const AboutHeader = () => {
             </div>
             <div className="w-[52%]">
               <h3 className="text-[48px] text-[#495567] font-bold font-[SpaceMono]">
-                Better urban living<br />
+                Better urban living
+                <br />
                 near you
               </h3>
               <p className="text-[15px] text-[grey] font-normal font-[LexendDeca] mt-[25px] mb-[40px]">
-                We’re helping connect cities and bring people closer<br />
-                together. Our scooters are also fully-electric and we offset<br />
+                We’re helping connect cities and bring people closer
+                <br />
+                together. Our scooters are also fully-electric and we offset
+                <br />
                 the minimal carbon footprint for each ride.
               </p>
             </div>
