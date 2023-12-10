@@ -33,18 +33,18 @@ export const LocationsComponent = () => {
           <img src={globe} alt="" />
         </div>
         <div className="flex justify-between items-center gap-[20px] my-[120px]">
-            <h3 className="text-darkNavy text-[48px] font-[SpaceMono] font-bold tracking-tighter">
-              Your city<br />
-              not listed?
-            </h3>
-            <p className="text-[15px] text-[grey] font-normal font-[LexendDeca]">
-              If you’d like to see Scoot in your hometown, be sure to let us <br />
-              know. We track requests and plan launches based on <br />
-              demand. Feel free to message us by clicking the link or <br />
-              messaging us on social.
-            </p>
-            <Button>Message Us</Button>
-          </div>
+          <h3 className="text-darkNavy text-[48px] font-[SpaceMono] font-bold tracking-tighter">
+            Your city<br />
+            not listed?
+          </h3>
+          <p className="text-[15px] text-[grey] font-normal font-[LexendDeca]">
+            If you’d like to see Scoot in your hometown, be sure to let us<br />
+            know. We track requests and plan launches based on<br />
+            demand. Feel free to message us by clicking the link or<br />
+            messaging us on social.
+          </p>
+          <Button>Message Us</Button>
+        </div>
       </header>
     </div>
   );
