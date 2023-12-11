@@ -11,17 +11,33 @@ export const Footer = () => {
       <section 
         className="
           flex 
+          sm:flex-col
           justify-between 
           items-center 
           px-[165px] 
+          sm:px-[32px]
+          brder-2 
           py-[100px] 
+          sm:py-[85px]
           bg-darkNavy 
           bg-[url('../../../../public/images/bgImage/circle.png')]
           bg-no-repeat
           bg-right-bottom
         ">
         <div>
-          <h3 className="text-white text-[48px] font-[SpaceMono] font-bold tracking-tighter">Sign up and <br />Scoot off today</h3>
+          <h3 className="
+            text-white 
+            text-[48px] 
+            mr-[20vw] 
+            sm:mr-0
+            sm:text-center 
+            sm:mb-[40px] 
+            font-[SpaceMono] 
+            font-bold 
+            tracking-tighter
+          ">
+            Sign up and Scoot off today
+          </h3>
         </div>
         <div className="flex items-center gap-[20px]">
           <a href="https://www.apple.com/app-store/" target="_blank">
@@ -32,8 +48,8 @@ export const Footer = () => {
           </a>
         </div>
       </section>
-      <footer className="flex items-center justify-between px-[165px] py-[35px]  bg-grey-2">
-        <div className="flex items-center gap-[60px]">
+      <footer className="flex sm:flex-col items-center justify-between px-[165px] sm:px-[32px] py-[35px] sm:py-[65px] bg-grey-2">
+        <div className="flex sm:flex-col items-center gap-[60px]">
           <div className="cursor-pointer">
             <a href="/">
               <svg
@@ -52,7 +68,7 @@ export const Footer = () => {
               </svg>
             </a>
           </div>
-          <ul className="flex items-center gap-[35px]">
+          <ul className="flex sm:flex-col items-center gap-[35px] sm:mb-[40px]">
             <li>
               <a className="text-grey text-[15px] font-bold font-[SpaceMono] hover:text-yellow" href="about">About</a>
             </li>

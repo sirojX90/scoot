@@ -12,14 +12,36 @@ export const HomeHeader = () => {
           px-[165px]
           bg-[url('../../../../../public/images/bgImage/Bitmap.jpg')]
           bg-contain
+          bg-no-repeat
+          sm:bg-cover
+          sm:bg-right
+          sm:px-[32px]
+          sm:py-[115px]
+          sm:mt-[70px]
+          md:px-[40px]
+          md:border-2
         "
       >
-        <h1 className="text-[56px] text-white font-bold font-[SpaceMono] leading-[56px]  mb-[40px]">
-          Scooter sharing <br />
-          made simple
+        <h1 
+          className="
+            text-[56px] 
+            text-white 
+            font-bold 
+            font-[SpaceMono] 
+            leading-[56px] 
+            mr-[30vw] 
+            mb-[40px]
+            sm:text-center 
+            sm:text-[40px] 
+            sm:mr-0
+            md:text-center
+            md:mr-0 
+          "
+        >
+          Scooter sharing made simple
         </h1>
         <div className="flex relative">
-          <div className="absolute left-[-165px] top-[40px]">
+          <div className="absolute left-[-165px] top-[40px] sm:hidden md:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="203"
@@ -30,13 +52,13 @@ export const HomeHeader = () => {
               <path d="M203 7.5H0.5" stroke="#FCB72B" strokeWidth="15" />
             </svg>
           </div>
-          <p className="text-[15px] text-white font-medium font-[LexendDeca] absolute left-[95px]">
-            Scoot takes the hassle out of urban mobility. Our bikes<br />
-            are placed in convenient locations in each of our cities.<br />
-            Use our app to locate the nearest bike, unlock it with a<br />
+          <p className="text-[15px] text-white sm:text-center font-medium font-[LexendDeca] absolute left-[95px] sm:left-[32px] mr-[32vw] sm:mr-0">
+            Scoot takes the hassle out of urban mobility. Our bikes 
+            are placed in convenient locations in each of our cities. 
+            Use our app to locate the nearest bike, unlock it with a 
             tap, and you’re away!
           </p>
-          <div className="absolute left-[540px] top-[40px]">
+          <div className="absolute left-[540px] sm:left-[-350px] top-[60px] sm:top-[210px] z-[1]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="447"
@@ -52,7 +74,7 @@ export const HomeHeader = () => {
               />
             </svg>
           </div>
-          <div className="absolute left-[946px] top-[103px]">
+          <div className="absolute left-[946px] sm:left-[50px] top-[103px] sm:top-[273px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"
@@ -68,7 +90,7 @@ export const HomeHeader = () => {
               />
             </svg>
           </div>
-          <div className="absolute left-[1075px] top-[115px]">
+          <div className="absolute left-[1075px] top-[115px] sm:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="234"
@@ -82,7 +104,7 @@ export const HomeHeader = () => {
             </svg>
           </div>
         </div>
-        <div className="ml-[95px] mt-[140px]">
+        <div className="ml-[95px] mt-[140px] sm:ml-0 sm:mt-[200px] sm:flex sm:justify-center ">
           <Button>Get Scootin</Button>
         </div>
       </header>

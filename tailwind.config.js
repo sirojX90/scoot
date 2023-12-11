@@ -5,6 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': {'min': '0px', 'max': '376px'},
+      'md': {'min': '377px', 'max': '768px'},
+      'lg': {'min': '769px', 'max': '1279px'},
+      '2xl': {'min': '1280px'},
+    },
     extend: {
       container: {
         center: true,
