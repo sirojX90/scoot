@@ -12,14 +12,45 @@ export const HomeHeader = () => {
           px-[165px]
           bg-[url('../../../../../public/images/bgImage/Bitmap.jpg')]
           bg-contain
+          bg-no-repeat
+          mob:bg-cover
+          mob:bg-right
+          mob:px-[32px]
+          mob:py-[115px]
+          mob:mt-[70px]
+          tab:px-[40px]
+          tab:border-2
+          tab:bg-cover
+          tab:bg-right
         "
       >
-        <h1 className="text-[56px] text-white font-bold font-[SpaceMono] leading-[56px]  mb-[40px]">
-          Scooter sharing <br />
-          made simple
+        <h1 
+          className="
+            text-[56px] 
+            text-white 
+            font-bold 
+            font-[SpaceMono] 
+            leading-[56px] 
+            mr-[30vw] 
+            mb-[40px]
+            mob:text-center 
+            mob:text-[40px] 
+            mob:mr-0
+            tab:text-center
+            tab:mr-0 
+          "
+        >
+          Scooter sharing made simple
         </h1>
         <div className="flex relative">
-          <div className="absolute left-[-165px] top-[40px]">
+          <div 
+            className="
+              absolute 
+              left-[-165px] 
+              top-[40px] 
+              mob:hidden
+              tab:hidden 
+            ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="203"
@@ -30,13 +61,39 @@ export const HomeHeader = () => {
               <path d="M203 7.5H0.5" stroke="#FCB72B" strokeWidth="15" />
             </svg>
           </div>
-          <p className="text-[15px] text-white font-medium font-[LexendDeca] absolute left-[95px]">
-            Scoot takes the hassle out of urban mobility. Our bikes<br />
-            are placed in convenient locations in each of our cities.<br />
-            Use our app to locate the nearest bike, unlock it with a<br />
+          <p 
+            className="
+              absolute 
+              left-[95px] 
+              text-[15px] 
+              text-white 
+              font-medium 
+              font-[LexendDeca] 
+              mr-[32vw] 
+              mob:text-center 
+              mob:mr-0
+              mob:left-[32px] 
+              tab:text-center
+              tab:left-0
+              tab:mr-0
+              tab:px-[60px] 
+            ">
+            Scoot takes the hassle out of urban mobility. Our bikes 
+            are placed in convenient locations in each of our cities. 
+            Use our app to locate the nearest bike, unlock it with a 
             tap, and you’re away!
           </p>
-          <div className="absolute left-[540px] top-[40px]">
+          <div 
+            className="
+              absolute 
+              left-[540px] 
+              top-[60px] 
+              z-[1]
+              mob:top-[210px] 
+              mob:left-[-350px] 
+              tab:left-[-160px]
+              tab:top-[130px] 
+            ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="447"
@@ -52,7 +109,16 @@ export const HomeHeader = () => {
               />
             </svg>
           </div>
-          <div className="absolute left-[946px] top-[103px]">
+          <div 
+            className="
+              absolute 
+              left-[946px] 
+              top-[103px]
+              mob:top-[273px]
+              mob:left-[50px] 
+              tab:left-[240px]
+              tab:top-[193px] 
+            ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"
@@ -68,7 +134,15 @@ export const HomeHeader = () => {
               />
             </svg>
           </div>
-          <div className="absolute left-[1075px] top-[115px]">
+          <div 
+            className="
+              absolute 
+              left-[1075px]
+              top-[115px] 
+              mob:hidden
+              tab:left-[520px]
+              tab:top-[200px]
+            ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="234"
@@ -82,7 +156,19 @@ export const HomeHeader = () => {
             </svg>
           </div>
         </div>
-        <div className="ml-[95px] mt-[140px]">
+        <div 
+          className="
+            mt-[140px] 
+            ml-[95px] 
+            mob:flex 
+            mob:justify-center 
+            mob:ml-0 
+            mob:mt-[200px]
+            tab:ml-0 
+            tab:flex
+            tab:justify-center
+            tab:mt-[100px] 
+          ">
           <Button>Get Scootin</Button>
         </div>
       </header>

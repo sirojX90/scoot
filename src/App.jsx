@@ -1,5 +1,5 @@
 import { Route, Switch } from "react-router-dom";
-import { About, Careers, Home, Locations, NotFound } from "./pages";
+import { Home, About, Locations, Careers, NotFound } from "./pages";
 
 function App() {
   return (

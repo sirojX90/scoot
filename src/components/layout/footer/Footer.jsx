@@ -19,9 +19,24 @@ export const Footer = () => {
           bg-[url('../../../../public/images/bgImage/circle.png')]
           bg-no-repeat
           bg-right-bottom
+          mob:flex-col
+          mob:px-[32px]
+          mob:py-[85px]
         ">
         <div>
-          <h3 className="text-white text-[48px] font-[SpaceMono] font-bold tracking-tighter">Sign up and <br />Scoot off today</h3>
+          <h3 className="
+            text-white 
+            text-[48px] 
+            mr-[20vw] 
+            mob:mr-0
+            mob:text-center 
+            mob:mb-[40px] 
+            font-[SpaceMono] 
+            font-bold 
+            tracking-tighter
+          ">
+            Sign up and Scoot off today
+          </h3>
         </div>
         <div className="flex items-center gap-[20px]">
           <a href="https://www.apple.com/app-store/" target="_blank">
@@ -32,8 +47,8 @@ export const Footer = () => {
           </a>
         </div>
       </section>
-      <footer className="flex items-center justify-between px-[165px] py-[35px]  bg-grey-2">
-        <div className="flex items-center gap-[60px]">
+      <footer className="flex mob:flex-col items-center justify-between px-[165px] mob:px-[32px] py-[35px] mob:py-[65px] bg-grey-2">
+        <div className="flex mob:flex-col items-center gap-[60px]">
           <div className="cursor-pointer">
             <a href="/">
               <svg
@@ -52,7 +67,7 @@ export const Footer = () => {
               </svg>
             </a>
           </div>
-          <ul className="flex items-center gap-[35px]">
+          <ul className="flex mob:flex-col items-center gap-[35px] mob:mb-[40px]">
             <li>
               <a className="text-grey text-[15px] font-bold font-[SpaceMono] hover:text-yellow" href="about">About</a>
             </li>
