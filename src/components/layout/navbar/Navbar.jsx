@@ -15,7 +15,7 @@ export const Navbar = () => {
         items-center 
         justify-between 
         px-[165px] 
-        py-[25px] 
+        py-[25px]
         mob:fixed 
         mob:left-0 
         mob:top-0 

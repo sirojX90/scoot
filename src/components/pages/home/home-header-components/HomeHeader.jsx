@@ -37,7 +37,7 @@ export const HomeHeader = () => {
             mob:text-[40px] 
             mob:mr-0
             tab:text-center
-            tab:mr-0 
+            tab:mr-0
           "
         >
           Scooter sharing made simple

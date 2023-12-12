@@ -11,10 +11,14 @@ export const Footer = () => {
       <section 
         className="
           flex 
+          sm:flex-col
           justify-between 
           items-center 
           px-[165px] 
+          sm:px-[32px]
+          brder-2 
           py-[100px] 
+          sm:py-[85px]
           bg-darkNavy 
           bg-[url('../../../../public/images/bgImage/circle.png')]
           bg-no-repeat
@@ -30,7 +34,7 @@ export const Footer = () => {
             mr-[20vw] 
             mob:mr-0
             mob:text-center 
-            mob:mb-[40px] 
+            mob:mb-[40px]
             font-[SpaceMono] 
             font-bold 
             tracking-tighter
