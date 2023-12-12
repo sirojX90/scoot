@@ -33,6 +33,24 @@ export const Navbar = () => {
             <a href="/"><img src={Logo} alt="logo" /></a>
           </div>
           <ul className="flex items-center gap-[35px] mob:hidden tab:gap-[30px]">
+=======
+        sm:fixed 
+        sm:left-0 
+        sm:top-0 
+        sm:bg-white 
+        sm:px-[32px] 
+        sm:w-[100vw] 
+        sm:z-[2]
+        md:px-[40px]
+      ">
+        <div onClick={hendleNav} className="md:hidden lg:hidden 2xl:hidden">
+          {!nav ? (<AiOutlineClose color="#fcb72b" size={18} />) : (<AiOutlineMenu color="#fcb72b" size={18} />)}
+        </div>
+        <div className="flex items-center gap-[60px] tab:gap-[50px]">
+          <div className="cursor-pointer sm:w-[74px] mob:mr-[25vw] tab:w-[109px]">
+            <a href="/"><img src={Logo} alt="logo" /></a>
+          </div>
+          <ul className="flex items-center gap-[35px] mob:hidden tab:gap-[30px]">
             <li><a className="text-grey text-[15px] font-bold font-[SpaceMono] hover:text-yellow" href="about">About</a></li>
             <li><a className="text-grey text-[15px] font-bold font-[SpaceMono] hover:text-yellow" href="locations">Location</a></li>
             <li><a className="text-grey text-[15px] font-bold font-[SpaceMono] hover:text-yellow" href="careers">Careers</a></li>

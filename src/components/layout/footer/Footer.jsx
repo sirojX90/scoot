@@ -14,6 +14,7 @@ export const Footer = () => {
           justify-between 
           items-center 
           px-[165px] 
+          brder-2 
           py-[100px] 
           bg-darkNavy 
           bg-[url('../../../../public/images/bgImage/circle.png')]
@@ -30,7 +31,7 @@ export const Footer = () => {
             mr-[20vw] 
             mob:mr-0
             mob:text-center 
-            mob:mb-[40px] 
+            mob:mb-[40px]
             font-[SpaceMono] 
             font-bold 
             tracking-tighter
@@ -68,6 +69,7 @@ export const Footer = () => {
             </a>
           </div>
           <ul className="flex mob:flex-col items-center gap-[35px] mob:mb-[40px]">
+
             <li>
               <a className="text-grey text-[15px] font-bold font-[SpaceMono] hover:text-yellow" href="about">About</a>
             </li>
