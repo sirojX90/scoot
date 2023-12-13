@@ -9,13 +9,32 @@ import rightArc from "../../../../../public/images/bgImage/right-arc.svg";
 export const HomeSupport = () => {
   return (
     <div className="container">
-      <section className="flex flex-col gap-[150px] mob:gap-[100px] px-[165px] mob:px-[32px] pt-[100px] pb-[200px]">
-        <div className="flex mob:flex-wrap-reverse justify-between items-center">
+      <section 
+        className="
+          flex 
+          flex-col 
+          gap-[150px] 
+          px-[165px] 
+          pt-[100px] 
+          pb-[200px]
+          text-[48px]
+          text-darkNavy
+          font-SpMo
+          font-bold
+          mob:px-[32px] 
+          mob:gap-[100px]
+          tab:px-[40px]
+        ">
+        <div className="flex mob:flex-wrap-reverse tab:flex-wrap-reverse justify-between items-center">
           <div className="w-[50%] mob:w-[100%]">
-            <h3 className="text-[48px] mob:text-[32px] mob:text-center mob:mt-[55px] mob:mb-[32px] text-[#495567] font-bold font-[SpaceMono]">
+            <h2 className="tab border-2 mob:text-[32px] mob:text-center mob:mt-[55px] mob:mb-[32px]  ">
               Easy to use<br />
               riding telemetry
-            </h3>
+            </h2>
+            <h4 className="mob">
+              Easy to use<br />
+              riding telemetry
+            </h4>
             <p className="text-[15px] text-[grey] mob:text-center font-normal font-[LexendDeca] mt-[25px] mob:mt-0 mb-[40px] mob:mb-[32px]">
               The Scoot app is available with riding telemetry. This means
               it can show you your average speed, how long you've been

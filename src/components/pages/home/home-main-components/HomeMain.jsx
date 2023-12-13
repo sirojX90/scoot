@@ -16,11 +16,18 @@ export const HomeMain = () => {
         tab:py-[120px]
       ">
         <div className="relative mob:hidden">
-          <svg className="absolute z-[-1] left-[-165px] top-[40px] tab:rotate-90 " xmlns="http://www.w3.org/2000/svg" width="974" height="15" viewBox="0 0 974 15" fill="none">
+          <svg 
+            className="absolute z-[-1] left-[-165px] top-[40px] tab:rotate-90 tab:left-[-435px]" 
+            xmlns="http://www.w3.org/2000/svg" 
+            width="974" 
+            height="15" 
+            viewBox="0 0 974 15" 
+            fill="none
+          ">
             <path d="M973.5 7.5H0.5" stroke="#E5ECF4" strokeWidth="15" />
           </svg>
         </div>
-        <div className="tab:flex tab:justify-between tab:items-center">
+        <div className="tab:flex tab:justify-between tab:items-center tab:gap-[80px]">
           <div className="mob:flex mob:justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none">
               <circle cx="48" cy="48" r="48" fill="#FCB72B" />
@@ -37,7 +44,7 @@ export const HomeMain = () => {
             </p>
           </div>
         </div>
-        <div className="tab:flex tab:justify-between tab:items-center">
+        <div className="tab:flex tab:justify-between tab:items-center tab:gap-[80px]">
           <div className="mob:flex mob:justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none">
               <circle cx="48" cy="48" r="48" fill="#FCB72B" />
@@ -56,7 +63,7 @@ export const HomeMain = () => {
             </p>
           </div>
         </div>
-        <div className="tab:flex tab:justify-between tab:items-center">
+        <div className="tab:flex tab:justify-between tab:items-center tab:gap-[80px]">
           <div className="mob:flex mob:justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none">
               <circle cx="48" cy="48" r="48" fill="#FCB72B" />

@@ -1,4 +1,41 @@
+/* Fonts */
 @import "./fonts.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    h1 {
+        @apply text-[56px] text-white font-bold font-["SpaceMono"] leading-[56px] not-italic tracking-[-2.5px];
+    }
+    h2 {
+        @apply text-[56px] text-darkNavy font-bold font-["SpaceMono"] leading-[56px] not-italic tracking-[-2.5px];
+    }
+    h3 {
+        @apply text-[48px] text-darkNavy font-bold font-["SpaceMono"] leading-[48px] not-italic tracking-[-2.143px];
+    }
+    h4 {
+        @apply text-[40px] text-darkNavy text-center font-bold font-["SpaceMono"] leading-[48px] not-italic tracking-[-1.786px];
+    }
+    h5 {
+        @apply text-[32px] text-darkNavy font-bold font-["SpaceMono"] leading-[32px] not-italic tracking-[-1.429px];
+    }
+    h6 {
+        @apply text-[24px] text-darkNavy font-bold font-["SpaceMono"] leading-[28px] not-italic tracking-[-1.071px];
+    }
+    p {
+        @apply text-[15px] text-grey font-normal font-["LexendDeca"] leading-[25px] not-italic;
+    }
+    .mob {
+        @apply tab:hidden lab:hidden des:hidden;
+    }
+    .tab {
+        @apply mob:hidden lab:hidden des:hidden;
+    }
+    .lab {
+        @apply mob:hidden tab:hidden des:hidden;
+    }
+    .des {
+        @apply mob:hidden tab:hidden lab:hidden;
+    }
+}

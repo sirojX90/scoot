@@ -11,14 +11,10 @@ export const Footer = () => {
       <section 
         className="
           flex 
-          sm:flex-col
           justify-between 
           items-center 
-          px-[165px] 
-          sm:px-[32px]
-          brder-2 
+          px-[165px]
           py-[100px] 
-          sm:py-[85px]
           bg-darkNavy 
           bg-[url('../../../../public/images/bgImage/circle.png')]
           bg-no-repeat
@@ -26,18 +22,25 @@ export const Footer = () => {
           mob:flex-col
           mob:px-[32px]
           mob:py-[85px]
+          tab:flex
+          tab:flex-col
+          tab:px-[40px]
         ">
         <div>
           <h3 className="
-            text-white 
             text-[48px] 
+            text-white 
             mr-[20vw] 
-            mob:mr-0
-            mob:text-center 
-            mob:mb-[40px]
             font-[SpaceMono] 
             font-bold 
             tracking-tighter
+            mob:text-center 
+            mob:mr-0
+            mob:mb-[40px]
+            tab:text-center
+            tab:px-[125px]
+            tab:mr-[0px]
+            tab:mb-[40px]
           ">
             Sign up and Scoot off today
           </h3>
@@ -51,7 +54,19 @@ export const Footer = () => {
           </a>
         </div>
       </section>
-      <footer className="flex mob:flex-col items-center justify-between px-[165px] mob:px-[32px] py-[35px] mob:py-[65px] bg-grey-2">
+      <footer 
+        className="
+          flex 
+          items-center 
+          justify-between 
+          px-[165px] 
+          py-[35px] 
+          bg-grey-2
+          mob:flex-col 
+          mob:px-[32px] 
+          mob:py-[65px]
+          tab:px-[40px] 
+        ">
         <div className="flex mob:flex-col items-center gap-[60px]">
           <div className="cursor-pointer">
             <a href="/">

@@ -24,24 +24,8 @@ export const HomeHeader = () => {
           tab:bg-right
         "
       >
-        <h1 
-          className="
-            text-[56px] 
-            text-white 
-            font-bold 
-            font-[SpaceMono] 
-            leading-[56px] 
-            mr-[30vw] 
-            mb-[40px]
-            mob:text-center 
-            mob:text-[40px] 
-            mob:mr-0
-            tab:text-center
-            tab:mr-0
-          "
-        >
-          Scooter sharing made simple
-        </h1>
+        <h1 className="mob:hidden pr-[55%] pb-[40px]">Scooter sharing made simple</h1>
+        <h4 className="mob text-white pr-[0] pb-[25px]">Scooter sharing made simple</h4>
         <div className="flex relative">
           <div 
             className="
@@ -65,14 +49,11 @@ export const HomeHeader = () => {
             className="
               absolute 
               left-[95px] 
-              text-[15px] 
               text-white 
-              font-medium 
-              font-[LexendDeca] 
-              mr-[32vw] 
+              pr-[55%] 
               mob:text-center 
-              mob:mr-0
-              mob:left-[32px] 
+              mob:pr-0
+              mob:left-[0] 
               tab:text-center
               tab:left-0
               tab:mr-0
