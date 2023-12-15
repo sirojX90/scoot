@@ -2,7 +2,7 @@ const translationsEn = {
     about: "About",
     location: "Location",
     careers: "Careers",
-    btn: "Message Us",
+    navbarBtn: "Message Us",
     applyBtn: "Apply"
 };
 

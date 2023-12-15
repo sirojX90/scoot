@@ -2,7 +2,7 @@ const translationsUz = {
     about: "Haqida",
     location: "Joylashuv",
     careers: "Martaba",
-    btn: "Bog'lanish",
+    navbarBtn: "Bog'lanish",
     applyBtn: "Qabul"
 };
 
