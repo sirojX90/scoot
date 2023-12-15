@@ -4,12 +4,10 @@ import { Button } from "../../common";
 export const LocationsComponent = () => {
   return (
     <div className="container">
-      <header className="bg-[url('../../../../../public/images/bgImage/locationHed.png')] bg-no-repeat bg-contain px-[165px]">
-        <h2 className="text-[56px] text-white font-bold font-[SpaceMono] py-[55px]">
-          Location
-        </h2>
+      <header className="bg-location-hed-img px-[165px]">
+        <h2 className="text-white py-[75px]">Location</h2>
         <div className="relative border-red-500">
-          <div className="absolute right-[-195px] top-[-130px] border-red-600 z-10">
+          <div className="absolute right-[-195px] top-[-135px] border-red-600 z-10">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="234"
@@ -33,14 +31,11 @@ export const LocationsComponent = () => {
           <img src={globe} alt="" />
         </div>
         <div className="flex justify-between items-center gap-[20px] my-[120px]">
-          <h3 className="text-darkNavy text-[48px] font-[SpaceMono] font-bold tracking-tighter">
-            Your city<br />
-            not listed?
-          </h3>
-          <p className="text-[15px] text-[grey] font-normal font-[LexendDeca]">
-            If you’d like to see Scoot in your hometown, be sure to let us<br />
-            know. We track requests and plan launches based on<br />
-            demand. Feel free to message us by clicking the link or<br />
+          <h3 className="w-[27%]">Your city not listed?</h3>
+          <p className="w-[35%]">
+            If you’d like to see Scoot in your hometown, be sure to let us
+            know. We track requests and plan launches based on
+            demand. Feel free to message us by clicking the link or
             messaging us on social.
           </p>
           <Button>Message Us</Button>

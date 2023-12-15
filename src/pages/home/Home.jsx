@@ -1,15 +1,12 @@
-import { Footer } from "../../components/layout/footer"
-import { Navbar } from "../../components/layout/navbar/Navbar"
 import { HomeHeader, HomeMain, HomeSupport } from "../../components/pages/home"
+import { Navbar, Footer } from "../../components/layout"
 
-export const Home = () => {
+export const Home = ({changeThemeHandler}) => {
   return (
     <div>
-      <Navbar/>
       <HomeHeader/>
       <HomeMain/>
       <HomeSupport/>
-      <Footer/>
     </div>
   )
 }

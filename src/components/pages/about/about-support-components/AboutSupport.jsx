@@ -56,19 +56,15 @@ export const AboutSupport = () => {
   return (
     <div className="container">
       <section className="px-[165px] pt-[60px] pb-[100px]">
-        <h2 className="text-[56px] text-darkNavy text-center font-bold font-[SpaceMono] mb-[65px]">FAQs</h2>
+        <h2 className="text-center mb-[65px]">FAQs</h2>
         <div className="flex justify-between gap-[30px]">
-          <div className="w-[30%]">
-            <h3 className="text-[40px] text-darkNavy font-bold font-[SpaceMono]">How it works</h3>
-          </div>
+          <h4 className="w-[30%]">How it works</h4>
           <div className="w-[70%]">
             <Accordion items={works}/>
           </div>
         </div>
         <div className="flex justify-between gap-[30px] mt-[65px]">
-          <div className="w-[30%]">
-            <h3 className="text-[40px] text-darkNavy font-bold font-[SpaceMono]">Safe driving</h3>
-          </div>
+          <h4 className="w-[30%]">Safe driving</h4>
           <div className="w-[70%]">
             <Accordion items={driving} />
           </div>

@@ -16,11 +16,11 @@ const Accordion = ({ items }) => {
 
     return (
       <div key={index} className={className}>
-        <div className="accordion-title" onClick={() => onTitleClick(index)}>
+        <h6 className="accordion-title dark:bg-slate-700" onClick={() => onTitleClick(index)}>
           {item.title} <img src={isActive ? up : dowen} alt="" />
-        </div>
+        </h6>
         {isActive && (
-          <div className="accordion-content">
+          <div className="accordion-content dark:bg-slate-700">
             <p>{item.content}</p>
           </div>
         )}

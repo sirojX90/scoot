@@ -9,8 +9,8 @@ export const Button = ({children}) => {
             font-bold 
             font-[SpaceMono]
             bg-yellow 
-            py-[15px] 
-            px-[40px] 
+            py-[14px] 
+            px-[39px] 
             hover:text-yellow 
             hover:bg-transparent
         ">

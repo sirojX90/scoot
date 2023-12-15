@@ -35,8 +35,8 @@ export const HomeMain = () => {
             </svg>
           </div>
           <div>
-            <h4 className='text-[24px] mob:text-[20px] text-[#495567] mob:text-center font-bold font-[SpaceMono] mt-[40px] mb-[25px] mob:mt-[25px] mob:mb-[25px]'>Locate with app</h4>
-            <p className="text-[15px] text-[grey] mob:text-center font-normal font-[LexendDeca]">
+            <h6 className='mob:text-center mt-[40px] mb-[25px] mob:mt-[25px] mob:mb-[25px]'>Locate with app</h6>
+            <p className="mob:text-center">
               Use the app to find the nearest scooter to you.
               We are continuously placing scooters in the
               areas with most demand, so one should never
@@ -54,8 +54,8 @@ export const HomeMain = () => {
             </svg>
           </div>
           <div>
-            <h4 className='text-[24px] mob:text-[20px] text-[#495567] mob:text-center font-bold font-[SpaceMono] mt-[40px] mb-[25px] mob:mt-[25px] mob:mb-[25px]' >Pick your scooter</h4>
-            <p className="text-[15px] text-[grey] mob:text-center font-normal font-[LexendDeca]">
+            <h6 className='mob:text-center mt-[40px] mb-[25px] mob:mt-[25px] mob:mb-[25px]' >Pick your scooter</h6>
+            <p className="mob:text-center">
               We show the most important info for the
               scooters closest to you. So you know how much
               charge they have left and can see roughly how
@@ -71,8 +71,8 @@ export const HomeMain = () => {
             </svg>
           </div>
           <div>
-            <h4 className='text-[24px] mob:text-[20px] text-[#495567] mob:text-center font-bold font-[SpaceMono] mt-[40px] mb-[25px] mob:mt-[25px] mob:mb-[25px]' >Enjoy the ride</h4>
-            <p className="text-[15px] text-[grey] mob:text-center font-normal font-[LexendDeca]">
+            <h6 className='mob:text-center mt-[40px] mb-[25px] mob:mt-[25px] mob:mb-[25px]' >Enjoy the ride</h6>
+            <p className="mob:text-center">
               Scan the QR code and the bike will unlock.
               Retract the cable lock, put on a helmet, and
               you’re off! Always lock bikes away from

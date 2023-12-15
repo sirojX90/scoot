@@ -5,12 +5,10 @@ import toUse from "../../../../../public/images/section-images/boy.jpg";
 export const CareersHeader = () => {
   return (
     <div className="container">
-      <header className="bg-[url('../../../../../public/images/bgImage/locationHed.png')] bg-no-repeat bg-contain px-[165px]">
-        <h2 className="text-[56px] text-white font-bold font-[SpaceMono] py-[55px]">
-          Careers
-        </h2>
-        <div className="relative border-red-500">
-          <div className="absolute right-[-195px] top-[-130px] border-red-600 z-10">
+      <header className="bg-careers-hed-img px-[165px]">
+        <h2 className="text-white py-[75px]">Careers</h2>
+        <div className="relative">
+          <div className="absolute right-[-195px] top-[-135px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="234"
@@ -31,13 +29,9 @@ export const CareersHeader = () => {
           </div>
         </div>
         <div className="flex justify-between items-center my-[120px]">
-          <div className="w-[50%]">
-            <h3 className="text-[48px] text-[#495567] font-bold font-[SpaceMono]">
-              Care to join our
-              <br />
-              mission?
-            </h3>
-            <p className="text-[15px] text-[grey] font-normal font-[LexendDeca] mt-[25px] mb-[40px]">
+          <div className="w-[45%]">
+            <h3>Care to join our mission?</h3>
+            <p className="mt-[25px] mb-[40px]">
               We’re always looking for ambitious individuals to help us on our
               journey. If you’re passionate about our mission to provide clean,
               accessible transport to improve urban living we want to hear from

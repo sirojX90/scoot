@@ -27,15 +27,15 @@ export const HomeSupport = () => {
         ">
         <div className="flex mob:flex-wrap-reverse tab:flex-wrap-reverse justify-between items-center">
           <div className="w-[50%] mob:w-[100%]">
-            <h2 className="tab border-2 mob:text-[32px] mob:text-center mob:mt-[55px] mob:mb-[32px]  ">
+            <h3 className="mob:text-center mob:mt-[55px] mob:mb-[32px]">
               Easy to use<br />
               riding telemetry
-            </h2>
+            </h3>
             <h4 className="mob">
               Easy to use<br />
               riding telemetry
             </h4>
-            <p className="text-[15px] text-[grey] mob:text-center font-normal font-[LexendDeca] mt-[25px] mob:mt-0 mb-[40px] mob:mb-[32px]">
+            <p className="mob:text-center mt-[25px] mob:mt-0 mb-[40px] mob:mb-[32px]">
               The Scoot app is available with riding telemetry. This means
               it can show you your average speed, how long you've been
               using the scooter, your traveling distance, and many more
@@ -64,8 +64,8 @@ export const HomeSupport = () => {
             <img className="rounded-[50%]" src={cityNear} alt="cash" />
           </div>
           <div className="w-[50%] mob:w-[100%]">
-            <h3 className="text-[48px] mob:text-[32px] mob:text-center mob:mt-[55px] mob:mb-[32px] text-[#495567] font-bold font-[SpaceMono]">Coming to a city <br /> near you</h3>
-            <p className="text-[15px] text-[grey] mob:text-center font-normal font-[LexendDeca] mt-[25px] mob:mt-0 mb-[40px] mob:mb-[32px]">
+            <h3 className="mob:text-center mob:mt-[55px] mob:mb-[32px]">Coming to a city near you</h3>
+            <p className="mob:text-center mt-[25px] mob:mt-0 mb-[40px] mob:mb-[32px]">
               Scoot is available in 4 major cities so far. We’re expanding 
               rapidly, so be sure to let us know if you want to see us in 
               your hometown. We’re aiming to let our scooters loose on 23 
@@ -78,8 +78,8 @@ export const HomeSupport = () => {
         </div>
         <div className="flex mob:flex-wrap-reverse justify-between items-center">
           <div className="w-[50%] mob:w-[100%]">
-            <h3 className="text-[48px] mob:text-[32px] mob:text-center mob:mt-[55px] mob:mb-[32px] text-[#495567] font-bold font-[SpaceMono]">Zero hassle <br /> payments</h3>
-            <p className="text-[15px] text-[grey] mob:text-center font-normal font-[LexendDeca] mt-[25px] mob:mt-0 mb-[40px] mob:mb-[32px]">
+            <h3 className="mob:text-[32px] mob:text-center mob:mt-[55px] mob:mb-[32px]">Zero hassle <br />payments</h3>
+            <p className="mob:text-center mt-[25px] mob:mt-0 mb-[40px] mob:mb-[32px]">
               Our payment is as easy as one two three. We accept most
               credit cards and debit cards. You can also link your PayPal
               account inside the app. Need to pay later? No worries! You

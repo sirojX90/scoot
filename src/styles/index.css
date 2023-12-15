@@ -1,5 +1,6 @@
 /* Fonts */
 @import "./fonts.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,10 +10,10 @@
         @apply text-[56px] text-white font-bold font-["SpaceMono"] leading-[56px] not-italic tracking-[-2.5px];
     }
     h2 {
-        @apply text-[56px] text-darkNavy font-bold font-["SpaceMono"] leading-[56px] not-italic tracking-[-2.5px];
+        @apply text-[56px] text-darkNavy font-bold font-["SpaceMono"] leading-[56px] not-italic tracking-[-2.5px] dark:text-white;
     }
     h3 {
-        @apply text-[48px] text-darkNavy font-bold font-["SpaceMono"] leading-[48px] not-italic tracking-[-2.143px];
+        @apply text-[48px] text-darkNavy font-bold font-["SpaceMono"] leading-[48px] not-italic tracking-[-2.143px] dark:text-white;
     }
     h4 {
         @apply text-[40px] text-darkNavy text-center font-bold font-["SpaceMono"] leading-[48px] not-italic tracking-[-1.786px];
@@ -21,10 +22,13 @@
         @apply text-[32px] text-darkNavy font-bold font-["SpaceMono"] leading-[32px] not-italic tracking-[-1.429px];
     }
     h6 {
-        @apply text-[24px] text-darkNavy font-bold font-["SpaceMono"] leading-[28px] not-italic tracking-[-1.071px];
+        @apply text-[24px] text-darkNavy font-bold font-["SpaceMono"] leading-[28px] not-italic tracking-[-1.071px] dark:text-white;
     }
     p {
-        @apply text-[15px] text-grey font-normal font-["LexendDeca"] leading-[25px] not-italic;
+        @apply text-[15px] text-grey font-normal font-["LexendDeca"] leading-[25px] not-italic dark:text-white;
+    }
+    li {
+        @apply text-grey text-[15px] font-bold font-["SpaceMono"] hover:text-yellow dark:text-white;
     }
     .mob {
         @apply tab:hidden lab:hidden des:hidden;
@@ -37,5 +41,20 @@
     }
     .des {
         @apply mob:hidden tab:hidden lab:hidden;
+    }
+    .bg-home-hed-img {
+        @apply bg-[url('../../../../../public/images/bgImage/Bitmap.jpg')] bg-cover bg-no-repeat;
+    }
+    .bg-about-hed-img {
+        @apply bg-[url('../../../../../public/images/bgImage/aboutHed.png')] bg-no-repeat bg-contain;
+    }
+    .bg-location-hed-img {
+        @apply bg-[url('../../../../../public/images/bgImage/locationHed.png')] bg-no-repeat bg-contain;
+    }
+    .bg-careers-hed-img {
+        @apply bg-[url('../../../../../public/images/bgImage/locationHed.png')] bg-no-repeat bg-contain;
+    }
+    .bg-footer-img {
+        @apply bg-darkNavy bg-[url('../../../../public/images/bgImage/circle.png')] bg-no-repeat bg-right-bottom;
     }
 }

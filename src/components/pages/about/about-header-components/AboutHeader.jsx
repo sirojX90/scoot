@@ -7,12 +7,12 @@ import rightArc from "../../../../../public/images/bgImage/right-arc.svg";
 export const AboutHeader = () => {
   return (
     <div className="container">
-      <header className="bg-[url('../../../../../public/images/bgImage/aboutHed.png')] bg-no-repeat bg-contain px-[165px]">
-        <h2 className="text-[56px] text-white font-bold font-[SpaceMono] py-[55px]">
+      <header className="bg-about-hed-img px-[165px]">
+        <h2 className="text-white py-[75px]">
           About
         </h2>
         <div className="relative border-red-500">
-          <div className="absolute right-[-195px] top-[-130px] border-red-600 z-10">
+          <div className="absolute right-[-195px] top-[-135px] border-red-600 z-10">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="234"
@@ -27,18 +27,12 @@ export const AboutHeader = () => {
           </div>
         </div>
         <div className="flex flex-col gap-[150px] py-[100px]">
-          <div className="flex justify-between items-center">
-            <div className="w-[50%]">
-              <h3 className="text-[48px] text-[#495567] font-bold font-[SpaceMono]">
-                Mobility for the
-                <br />
-                digital era
-              </h3>
-              <p className="text-[15px] text-[grey] font-normal font-[LexendDeca] mt-[25px] mb-[40px]">
+          <div className="flex justify-between gap-[40px] items-center">
+            <div className="w-[45%]">
+              <h3>Mobility for the digital era</h3>
+              <p className="mt-[25px] mb-[40px]">
                 Getting around should be simple (and even fun!) for everyone. We
-                <br />
                 embrace technology to provide low cost, smart access to scooters
-                <br />
                 at your fingertips.
               </p>
             </div>
@@ -85,7 +79,7 @@ export const AboutHeader = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between gap-[40px] items-center">
             <div className="flex">
               <div className="relative">
                 <div className="absolute right-[-185px]">
@@ -128,17 +122,11 @@ export const AboutHeader = () => {
               </div>
               <img className="rounded-[50%]" src={cityNear} alt="cash" />
             </div>
-            <div className="w-[52%]">
-              <h3 className="text-[48px] text-[#495567] font-bold font-[SpaceMono]">
-                Better urban living
-                <br />
-                near you
-              </h3>
-              <p className="text-[15px] text-[grey] font-normal font-[LexendDeca] mt-[25px] mb-[40px]">
+            <div className="w-[45%]">
+              <h3>Better urban living near you</h3>
+              <p className="mt-[25px] mb-[40px]">
                 We’re helping connect cities and bring people closer
-                <br />
                 together. Our scooters are also fully-electric and we offset
-                <br />
                 the minimal carbon footprint for each ride.
               </p>
             </div>
